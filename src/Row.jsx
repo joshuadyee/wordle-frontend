@@ -1,5 +1,9 @@
-export function Row() {
+export function Row({ guess }) {
   return (
-    <div>one guess per Row</div>
+    <div>
+      {guess.map((letter, index) => (
+        <Letter key={index} letter={letter} />
+      ))}
+    </div>
   )
 }
