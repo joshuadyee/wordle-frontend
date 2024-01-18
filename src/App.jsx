@@ -1,12 +1,12 @@
 import { Header } from "./Header"
-import { Content } from "./Content"
+import { Game } from "./Game"
 import { Footer } from "./Footer"
 
 function App() {
   return (
     <div>
       <Header />
-      <Content />
+      <Game />
       <Footer />
     </div>
   )
